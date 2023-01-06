@@ -1,0 +1,23 @@
+uuid: 3ead5f4d-c000-43ce-82dc-b7dfd7ebf8bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - emulsify_dev_theme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: emulsify_dev_theme_search_form_wide
+theme: emulsify_dev_theme
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

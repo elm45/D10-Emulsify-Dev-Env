@@ -1,0 +1,22 @@
+uuid: d9d71b61-9f4c-47e9-9db6-15f2291a04e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - emulsify_dev_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: emulsify_dev_theme_messages
+theme: emulsify_dev_theme
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

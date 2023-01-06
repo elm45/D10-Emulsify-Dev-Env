@@ -1,0 +1,20 @@
+uuid: eb81d44a-9d54-4e71-98b3-a12c2b355731
+langcode: en
+status: true
+dependencies:
+  theme:
+    - emulsify_dev_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: emulsify_dev_theme_primary_admin_actions
+theme: emulsify_dev_theme
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
