@@ -1,7 +1,7 @@
 # Drupal 10 Dev Environment for Emulsify
 This is a Drupal 10 environment set up for developing components for Emulsify. The components will have their own repo and will not be saved here.
 
-## Instal for Emulsify Developemnt
+## Setup for Emulsify Developemnt
 2. git clone the repo locally
 3. cd into `D10-Emulsify-Dev-Env` and `composer install`
 4. `ddev start` to start environment
@@ -13,7 +13,7 @@ If composer install fails and asks for a token for github, try updating to the l
 
 ## Development and Maintenance of the Drupal Repo
 
-### Install for Development and maintenance
+### Setup for Development and maintenance
 1. Fork the repo
 2. git clone your fork locally
 3. set the remote upstream
